@@ -1,0 +1,41 @@
+#start{
+  width: 30%;
+  height: 350px;
+  margin-left: 35%;
+  background-color: #eeeeee;
+  padding: 20px;
+  position: relative;
+  top: 100px;
+  line-height: 200%;
+  font-family:sans-serif;
+}
+
+#restart{
+  width: 30%;
+  height: 250px;
+  margin-left: 35%;
+  background-color: #eeeeee;
+  padding: 20px;
+  position: relative;
+  top: 100px;
+  line-height: 200%;
+  font-family:sans-serif;
+}
+
+#color{ width: 99%; }
+
+button{
+  width: 70px;
+  position: relative;
+  left: 200px;
+  top: 40px;
+}
+
+#restart button{
+  width: 70px;
+  position: relative;
+  left: 273px;
+  top: 12px;
+}
+
+p{font-size: 120%;}

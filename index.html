@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Color Guessing Game</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="start">
+        <h2 id="-title">Javascript</h2>
+        <p id="-options">I am thinking of these color:</p>
+        <p id="colors">blue, cyan, green, red, gray, gold, orange,
+            <br /> white, yellow, magenta</p>
+        <p id="alert-questions">What color am I thinking of?</p>
+        <input type="text" name="color" id="color" />
+        <br />
+        <button id="ok1" onclick="myFunction()" class="btn btn-success">ok</button>
+        <button type="button" id="cancel" onclick="cancel()" class="btn btn-danger">Cancel</button>
+    </div>
+
+    <!--End of row-->
+
+
+    <div id="restart">
+        <h2 id="alert-title">Javascript Alert</h2>
+        <p id="alert-options"></p>
+        <p id="hint"></p>
+        <p id="alert-questions"></p>
+        <button id="ok2" onclick="reset()" class="btn btn-success">ok</button>
+    </div>
+
+    <!--these are the js file -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/guessing.js"></script>
+
+</body>
+
+</html>
